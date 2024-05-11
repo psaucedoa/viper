@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>blade_pose</name>
+  <version>1.2.0</version>
+  <description>
+    Estimate blade position
+  </description>
+  <maintainer email="isaac.j.blankenau@erdc.dren.mil">Isaac Blankenau</maintainer>
+  <maintainer email="arturo.saucedo@erdc.dren.mil">Arturo Saucedo</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>python3-opencv</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_msgs</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,16 @@
+sensor_name: "blade_zed"
+frame_id: "zed"
+
+absolute_pose_tracking: false
+
+sub_topic_depth_img: "/tracker/zed_node/depth/depth_registered"
+sub_topic_left_img: "/tracker/zed_node/rgb/image_rect_color"
+sub_topic_imu: "/blade/zed_node/imu/data"
+
+pub_topic_depth_masked_image: "/blade_pose/img_depth_masked"
+pub_topic_rgb_image: "/blade_pose/img_rgb_masked"
+pub_topic_keypoints_image: "blade_pose/img_keypoints"
+pub_topic_blade_pose: "/blade_pose/pose5"
+
+
+depth_upper_bound: 180

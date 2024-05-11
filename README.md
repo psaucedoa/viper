@@ -1,2 +1,1 @@
-# Visual Implement Positioning for Engineer Robotics
-VIPER
+# blade_position_estimation
